@@ -72,7 +72,7 @@ Listar todos los miembros de la biblioteca
 ```
 Buscar un miembro por nombre:
 ```sql
-
+SELECT nombre, telefono, email FROM miembros WHERE nombre = 'Maria';
 ```
 Obtener las transacciones de un miembro específico
 ```sql

@@ -35,3 +35,9 @@ VALUES ('0001', 1, '2022-05-22', 'letra'),
 ('0001', 1, '2024-03-20', 'diseño'),
 ('0002', 2, '2020-10-12', 'portada'),
 ('0003', 2, '2015-04-30', 'actualización');
+
+INSERT INTO miembros
+(nombre, telefono, email)
+VALUES ('Maria', '3185645233', 'maria@gmail.com'),
+('Pedro', '3184245233', 'pablo@gmail.com'),
+('Camil0', '3185644233', 'camil0@gmail.com');
